@@ -1,0 +1,208 @@
+== Info:   Trying 64.233.164.132...
+== Info: TCP_NODELAY set
+== Info: Connected to tpc.googlesyndication.com (64.233.164.132) port 443 (#0)
+== Info: ALPN, offering h2
+== Info: ALPN, offering http/1.1
+== Info: successfully set certificate verify locations:
+== Info:   CAfile: C:\Program Files\curl-7.63.0-win64-mingw\bin\curl-ca-bundle.crt
+  CApath: none
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.3 (OUT), TLS handshake, Client hello (1):
+=> Send SSL data, 512 bytes (0x200)
+0000: ......j.S.w.......9..y.M....y..v...T.. .).....^.)..$~.p..4OUV6..
+0040: ..D$c...>.......,.0.........+./...$.(.k.#.'.g.....9.....3.....=.
+0080: <.5./.....u.........tpc.googlesyndication.com...................
+00c0: .....3t.........h2.http/1.1.........1.....0.....................
+0100: ............................+............-.....3.&.$... Ng..f...
+0140: u.Q%C.....h.dEi........$........................................
+0180: ................................................................
+01c0: ................................................................
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....d
+== Info: TLSv1.3 (IN), TLS handshake, Server hello (2):
+<= Recv SSL data, 100 bytes (0x64)
+0000: ...`..\Y<.P.q.:.p..M...~._.B.J...s.... 3%.a.ec[iF..Hd..........M
+0040: .~+.._F...........................h2
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Certificate (11):
+<= Recv SSL data, 2313 bytes (0x909)
+0000: ..........0...0..........S.b...EX0...*.H........0T1.0...U....US1
+0040: .0...U....Google Trust Services1%0#..U....Google Internet Author
+0080: ity G30...190115131500Z..190409131500Z0s1.0...U....US1.0...U....
+00c0: California1.0...U....Mountain View1.0...U....Google LLC1"0 ..U..
+0100: ..tpc.googlesyndication.com0.."0...*.H.............0..........(.
+0140: ..L.w.2.!.?.....:..>..I.8u+.!Q.%..'...[...{O..X.>H.[.:X...9.6.#.
+0180: ..N.UG.WP.......u..........@.A......<.,<.w.<..l\>J.9...9q..M..)
+01c0: Q.a.t.....P'..U.R....c.,Q...D.q...."...+pV.P..B]n.N;'.J....iB*..
+0200: .o...A.V<,h...n..|}e..A..%..8..P..)..M#.......~H.q...@m...M....
+0240: ....M0..I0...U.%..0...+.......0$..U....0...tpc.googlesyndication
+0280: .com0h..+........\0Z0-..+.....0..!http://pki.goog/gsr2/GTSGIAG3.
+02c0: crt0)..+.....0...http://ocsp.pki.goog/GTSGIAG30...U.......d..}D<
+0300: ...,=..okb...0...U.......0.0...U.#..0...w..P.gvv.-.....~.~.K0!..
+0340: U. ..0.0...+.....y...0...g.....01..U...*0(0&.$.". http://crl.pki
+0380: .goog/GTSGIAG3.crl0...*.H.............|N.\.O...........P2C3..}.D
+03c0: O...../.D... [d..8... /....R..tZ..c.s...4...H..v..ee.[[C..k..Y..
+0400: .....)...N)......B....$......<:...x].......lw.........4m...C.IQ1
+0440: .2).#.am}]......6..[.?..t.......~=U~...w......=.....v...%o.'..-.
+0480: .S.%:RE .SJ.....y*x......k1...e".^-..e..`0..\0..D..........0..r.
+04c0: 8?.S.0...*.H........0L1 0...U....GlobalSign Root CA - R21.0...U.
+0500: ...GlobalSign1.0...U....GlobalSign0...170615000042Z..21121500004
+0540: 2Z0T1.0...U....US1.0...U....Google Trust Services1%0#..U....Goog
+0580: le Internet Authority G30.."0...*.H.............0.........RK....
+05c0: $k..r.h.V].HZ-5.vZ.......S...4..[.......5su......}+&y..@..Q..2.|
+0600: p.RK..j'k.6zbP......).O).....8..j.|...;x}EI6OA...vW<h1yd.n.Q.f..
+0640: d,y..e.V.SZCm... ...i...s..*`eP1.../...@..I...n....,..9.XT......
+0680: .....MA...........$I.GK.....W.ib+.. .i.:..~)..........%.3.......
+06c0: .30../0...U...........0...U.%..0...+.........+.......0...U......
+0700: .0.......0...U......w..P.gvv.-.....~.~.K0...U.#..0......Wg...j..
+0740: Y..-.....05..+........)0'0%..+.....0...http://ocsp.pki.goog/gsr2
+0780: 02..U...+0)0'.%.#.!http://crl.pki.goog/gsr2/gsr2.crl0?..U. .8060
+07c0: 4..g.....0*0(..+.........https://pki.goog/repository/0...*.H....
+0800: ..............S.....2..,..m.B.w.....R` {W'...?g..,[Z.".....KH?..
+0840: =.!.E.m...h..d...^@..*....6.@0.2...v.~.S..v.9...f.&...8.I.C..].V
+0880: M......M..*n|.n\.bB...6..., .F.Zw....J..@".rZ.....Z.....}..5_.6
+08c0: V.@=...5r...VN........>.c..K.DfW......,W?R....}M.....@..Us.<....
+0900: [!.g..2..
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....,
+== Info: TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+<= Recv SSL data, 300 bytes (0x12c)
+0000: ...(... DS. .. ..............q.:..fpO..+........#..)1P..B~....^.
+0040: Q.-.......-V.^..l...u..Mt@..f9......k4........;....[.= .sd.....'
+0080: 3'....4........F..\.L....o...}......8.?....`.... X...F$f36.n...
+00c0: ....x?.......-#.Z#..:i..m.7..` ..._......m5.6.......=....s..-..
+0100: ...X...B.q8.........A.mm...'......Ynf.....5
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (IN), TLS handshake, Server finished (14):
+<= Recv SSL data, 4 bytes (0x4)
+0000: ....
+=> Send SSL data, 5 bytes (0x5)
+0000: ....%
+== Info: TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+=> Send SSL data, 37 bytes (0x25)
+0000: ...! ..........i..[=..5...Nk.!.:...-+
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):
+=> Send SSL data, 1 bytes (0x1)
+0000: .
+=> Send SSL data, 5 bytes (0x5)
+0000: .... 
+== Info: TLSv1.2 (OUT), TLS handshake, Finished (20):
+=> Send SSL data, 16 bytes (0x10)
+0000: ....w..c.g....~.
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .... 
+== Info: TLSv1.2 (IN), TLS handshake, Finished (20):
+<= Recv SSL data, 16 bytes (0x10)
+0000: ....,/.4.op.b9=.
+== Info: SSL connection using TLSv1.2 / ECDHE-RSA-CHACHA20-POLY1305
+== Info: ALPN, server accepted to use h2
+== Info: Server certificate:
+== Info:  subject: C=US; ST=California; L=Mountain View; O=Google LLC; CN=tpc.googlesyndication.com
+== Info:  start date: Jan 15 13:15:00 2019 GMT
+== Info:  expire date: Apr  9 13:15:00 2019 GMT
+== Info:  subjectAltName: host "tpc.googlesyndication.com" matched cert's "tpc.googlesyndication.com"
+== Info:  issuer: C=US; O=Google Trust Services; CN=Google Internet Authority G3
+== Info:  SSL certificate verify ok.
+== Info: Using HTTP2, server supports multi-use
+== Info: Connection state changed (HTTP/2 confirmed)
+== Info: Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+=> Send SSL data, 5 bytes (0x5)
+0000: ....(
+=> Send SSL data, 5 bytes (0x5)
+0000: ....+
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: Using Stream ID: 1 (easy handle 0x1f1cb3f20a0)
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+=> Send header, 338 bytes (0x152)
+0000: GET /simgad/18289217526177361906 HTTP/2
+0029: Host: tpc.googlesyndication.com
+004a: Accept: */*
+0057: Accept-Encoding: deflate, gzip, br
+007b: Referer: https://stackoverflow.com/questions/9509125/bad-git-con
+00bb: fig-file-git-config
+00d0: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKi
+0110: t/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36
+0150: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: ....8
+== Info: Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv header, 13 bytes (0xd)
+0000: HTTP/2 200 
+<= Recv header, 22 bytes (0x16)
+0000: accept-ranges: bytes
+<= Recv header, 25 bytes (0x19)
+0000: content-type: image/png
+<= Recv header, 32 bytes (0x20)
+0000: access-control-allow-origin: *
+<= Recv header, 24 bytes (0x18)
+0000: timing-allow-origin: *
+<= Recv header, 23 bytes (0x17)
+0000: content-length: 34701
+<= Recv header, 37 bytes (0x25)
+0000: date: Mon, 04 Feb 2019 04:17:28 GMT
+<= Recv header, 40 bytes (0x28)
+0000: expires: Tue, 04 Feb 2020 04:17:28 GMT
+<= Recv header, 46 bytes (0x2e)
+0000: last-modified: Wed, 23 Jan 2019 22:11:22 GMT
+<= Recv header, 33 bytes (0x21)
+0000: x-content-type-options: nosniff
+<= Recv header, 29 bytes (0x1d)
+0000: x-dns-prefetch-control: off
+<= Recv header, 14 bytes (0xe)
+0000: server: sffe
+<= Recv header, 33 bytes (0x21)
+0000: x-xss-protection: 1; mode=block
+<= Recv header, 41 bytes (0x29)
+0000: cache-control: public, max-age=31536000
+<= Recv header, 12 bytes (0xc)
+0000: age: 98090
+<= Recv header, 48 bytes (0x30)
+0000: alt-svc: quic=":443"; ma=2592000; v="44,43,39"
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv SSL data, 5 bytes (0x5)
+0000: .....
+<= Recv data, 1388 bytes (0x56c)
+0000: .PNG
+0006: ......IHDR...,..........mz.....pHYs...........~... .IDATx.....eU
+0046: u.......A..qH............hb4q.q.q..Dc.[M.q..51.5..I..&.8%Q! D...
+0086: "* ....4.._.......}.{U........z....{...{.>..9...6......^{...^..
+00c6: ...........q....=.....X...}......E...?.k..6*.unv............v...
+0106: ..o.=.....+.a..v.[....i....V.......t.....x]G.{].>~.......*C.]w.
+0146: u.{Q[\r.%..]q..q.UW.k.k......I..5t=..j......t/..[....O.@.i...g.>
+0186: ..Du..T...k...t.t.._.....b..M...U....1..._..m...%.....5...=7..v
+01c6: ....>{xP.`.[..V].....@.>5n.G'Sy*.....\}t.......#._..{P.ju..}U.<F
+0206: .........}.....O. ...j[..j.....?3.j.....gT...-0.sh./...n.....8]O
+0246: u........k.n....y..7....|.U.89PV.s.#.7....../..E.g..mo;.........
+0286: 5.|.#7{%W`...4.J...._.Y.2...i..s\.r...:...........4...Z.Qi..e.Ge
+02c6: k._.:.7._.z.3;.F..Fi.a.]e..f..h...w.e.9mYiX./.[iXh8-M...v....[..
+0306: .y......>.v........}.9#..zAL.&Ys...n....*Wt_.......e`..7...i.#}.
+0346: G.4*.O..a......hHt..z...2.y;..Z&&...7v~F..-...R....ps..ZP...%...
+0386: @..U....2..8..\._...MU......5[(1...mn...f.T.J.a.qV.4.....g...t>
+03c6: ...j....pXz.j.V..YfP..3PW......2.dbF..V]c.j.@..~F=.`.....j...fr
+0406: [W&.kX...9.Gq.s.~.~.M@^...F..[.....|Z/(.'.....8.........W.Tn...
+0446: .....Hw.>r.Vo}...u.J.n...Do.J.8..'.8.{....;....>.0......2Q.....^
+0486: ..@rg.._..h.a.O5..".f.ee.Z....F.\3h"...dY.........V...1T....x.@r
+04c6: *.t.u..........j.\.h....c4znd..t^uH.tI.l.sV..8..=S.F.G..4..&o.x.
+0506: .........[&..^....5.........=$.........*.l..k.o.l.fi.y....X....S
+0546: .p.t....... .HUn..VDt,...:.R%{.F.?..DK
+== Info: Failed writing body (0 != 1388)
+=> Send SSL data, 5 bytes (0x5)
+0000: .....
+== Info: stopped the pause stream!
+== Info: Connection #0 to host tpc.googlesyndication.com left intact
